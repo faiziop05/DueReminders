@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Due Reminders",
+    "slug": "DueReminders",
+    "scheme": "due-reminders",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon5.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/icon5.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.faiziop05.DueReminders",
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon5.png",
+          "color": "#0A84FF"
+        }
+      ],
+      "expo-sharing"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e4ccf97a-40e0-415e-96a0-311a9e4f097d"
+      }
+    }
+  }
+}
